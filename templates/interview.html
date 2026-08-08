@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Technical Interview</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Resume Analysis</h1>
+
+<h2>Welcome {{ name }}</h2>
+
+<h3>Skills Detected</h3>
+
+{% if skills %}
+
+<ul>
+
+{% for skill in skills %}
+
+<li>✔ {{ skill.title() }}</li>
+
+{% endfor %}
+
+</ul>
+
+{% else %}
+
+<p>No matching skills found.</p>
+
+{% endif %}
+
+<h2>Resume Score : {{ score }}%</h2>
+
+<hr>
+
+<h2>Technical Interview</h2>
+
+<form action="/result">
+
+<label>1. What is Python?</label>
+
+<br>
+
+<textarea rows="4" cols="50" required></textarea>
+
+<br><br>
+
+<label>2. What is Flask?</label>
+
+<br>
+
+<textarea rows="4" cols="50" required></textarea>
+
+<br><br>
+
+<label>3. Explain Object Oriented Programming.</label>
+
+<br>
+
+<textarea rows="4" cols="50" required></textarea>
+
+<br><br>
+
+<button type="submit">
+
+Submit Interview
+
+</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>

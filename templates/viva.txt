@@ -1,0 +1,152 @@
+Q1. Which language did you use?
+
+Python
+
+Q2. Which framework?
+
+Flask
+
+Q3. Which database?
+
+SQLite
+
+Q4. How is AI used?
+
+You can say:
+
+"The uploaded resume is processed using Python. The system extracts text from the PDF using the PyMuPDF library. It compares the extracted text with predefined technical skills such as Python, SQL, Flask, Machine Learning, HTML, and CSS. Based on the detected skills, it generates a resume score and recommends the candidate."
+
+Q5. Future Scope?
+Login System
+Real AI using OpenAI/Gemini
+Face Recognition
+Voice Interview
+Email Notifications
+Cloud Database
+Resume Ranking
+
+
+"What technologies did you use?"
+
+Answer:
+
+I used Python as the backend programming language, Flask as the web framework, HTML and CSS for the frontend, SQLite as the database, and Chart.js to display graphical statistics on the dashboard. I also implemented a rule-based AI resume analyzer to extract skills and assign resume scores.
+
+
+Why Python?
+
+Because
+
+Easy to learn
+Strong AI libraries
+Good for web development
+Flask is based on Python
+
+
+Why Flask?
+
+Faculty may ask:
+
+Why Flask?
+
+Answer:
+
+Flask is a lightweight Python web framework.
+
+It helps create web applications quickly.
+
+Using Flask we can:
+
+Create webpages
+Accept form data
+Upload resumes
+Connect with SQLite
+Display dashboard
+
+
+Why SQLite?
+
+SQLite is
+
+lightweight
+no installation needed
+stored in one file
+
+Our database file is
+
+hrms.db
+
+This stores all candidate information.
+
+
+Why HTML?
+
+HTML is used to design webpages.
+
+We created
+
+index.html
+interview.html
+result.html
+dashboard.html
+
+
+
+Why Resume Upload?
+
+Recruiters receive resumes in PDF format.
+
+So we allow candidates to upload resumes.
+
+Flask stores the resume inside the uploads folder.
+
+
+Why Resume Analyzer?
+
+Instead of manually reading resumes,
+
+our AI checks whether important technical skills are present.
+
+Example:
+
+Python
+
+SQL
+
+Flask
+
+HTML
+
+CSS
+
+JavaScript
+
+Machine Learning
+
+Communication
+
+Leadership
+
+If many required skills are found,
+
+the resume score increases.
+
+Is this really AI?
+
+Yes.
+
+It is rule-based AI.
+
+It doesn't use deep learning,
+
+but it automates decision-making using predefined logic.
+
+That still falls under Artificial Intelligence techniques.
+
+If the faculty asks, "Is this machine learning?"
+
+Answer honestly:
+
+No. This project uses rule-based AI for resume analysis. Machine learning could be integrated in future versions to improve prediction accuracy.
+
+That's a strong answer because you're accurately describing your work.
